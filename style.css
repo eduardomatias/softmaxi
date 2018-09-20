@@ -16,3 +16,11 @@ Version: 1.0
       width: 750px;
     }
 }
+
+.single-author{
+    min-height: 400px;
+}
+
+#author i.icofont {
+    font-size: 60px;
+}
