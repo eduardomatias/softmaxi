@@ -7,7 +7,7 @@ Description: AppRaxx – Creative App Landing Page HTML5 Template is collection 
 Version: 1.0
 */
 
-.modal-body{
+.modal-body {
     text-align: justify;
 }
 
@@ -17,10 +17,14 @@ Version: 1.0
     }
 }
 
-.single-author{
+.single-author {
     min-height: 400px;
 }
 
 #author i.icofont {
     font-size: 60px;
+}
+
+.modal-dialog {
+    margin-bottom: 150px;
 }
