@@ -28,3 +28,24 @@ Version: 1.0
 .modal-dialog {
     margin-bottom: 150px;
 }
+
+nav.navbar{
+    border-bottom: 2px solid silver;	
+}
+#home {
+	background-image: url('./img/demo-3/home-bg.jpg');
+	background-image: url('./img/demo-3/3950-bg.jpg');
+	background-attachment: fixed;
+}
+#home blockquote {
+	font-size: 20px;
+	max-width: 600px;
+	float: right!important;
+	margin-top: 45%;
+}
+#home blockquote p{
+	color: #000;
+}
+#home blockquote cite{
+	color: #555;
+}
