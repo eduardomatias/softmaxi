@@ -33,6 +33,76 @@ Version: 1.0
 ===================================================================== */
 
 
+/*
+|----------------------------------------------------------------------------
+		6. SCREENSHOTS
+|----------------------------------------------------------------------------
+*/
+
+.screenshot-item {
+    /*position: relative;*/
+    float: left;
+    overflow: hidden;
+    height: 350px;
+    width: 660px;
+    background-color: #FFF;
+}
+
+.screenshot-item img {
+    /*height: 100%;*/
+    margin-left: -300px;
+}
+
+.screenshot-item .owl-text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFF;
+    color: #777;
+    padding: 3px;
+}
+
+.screenshot-overlay,
+.screenshot-overlay i {
+	position: absolute;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	-webkit-transition: visibility .2s ease-in, opacity .3s ease-in-out, background .4s ease-out;
+	transition: visibility .2s ease-in, opacity .3s ease-in-out, background .4s ease-out;
+        
+}
+
+.screenshot-overlay {
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .8);
+	z-index: 1;
+}
+
+.screenshot-overlay i {
+	background-color: #ec3851;
+	color: #fff8ee;
+	border: none;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.screenshot-item:hover .screenshot-overlay,
+.screenshot-item:hover .screenshot-overlay i {
+	visibility: visible;
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
 /* ------------------------------------------------------------------ */
 /* 0. GENERAL
 /* ------------------------------------------------------------------ */
