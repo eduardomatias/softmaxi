@@ -29,6 +29,21 @@ Version: 1.0
     margin-bottom: 150px;
 }
 
+@media screen and (max-width: 415px) {
+    .secondary-menu-icon{
+        display: block;
+    }
+
+#navigation li a {
+    color: #FFF!important;
+}
+}
+@media screen and (min-width: 416px) {
+    .secondary-menu-icon{
+        display: none;
+    }
+}
+
 nav.navbar{
     border-bottom: 2px solid silver;	
 }
